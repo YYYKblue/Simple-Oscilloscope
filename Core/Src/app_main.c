@@ -225,7 +225,7 @@ void OLED_Show_SPEC( float fre_sam )
     OLED_ShowFrame();  // 将显存内容更新到屏幕
 }
 
-//获取输入信号的实际频率
+//返回输入信号的实际频率
 float Obtain_Fre( void )
 {
     float frequency = 0;
