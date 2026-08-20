@@ -1,0 +1,52 @@
+# ==============================
+# Keil MDK build outputs
+# ==============================
+*.o
+*.obj
+*.d
+*.crf
+*.axf
+*.elf
+*.hex
+*.bin
+*.map
+*.lst
+*.lnp
+*.dep
+*.htm
+*.html
+
+# Keil generated build directories
+MDK-ARM/oscilloscope/
+MDK-ARM/Objects/
+MDK-ARM/Listings/
+
+# ==============================
+# Keil user/debug files
+# ==============================
+*.uvguix.*
+*.uvgui.*
+*.uvgui
+JLinkLog.txt
+JLinkSettings.ini
+
+# ==============================
+# VS Code
+# ==============================
+.vscode/
+MDK-ARM/.vscode/
+
+# ==============================
+# OS temporary files
+# ==============================
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# ==============================
+# Temporary / backup files
+# ==============================
+*.bak
+*.tmp
+*.swp
+*~
